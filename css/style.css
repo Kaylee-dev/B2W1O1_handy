@@ -159,6 +159,7 @@ button{
 	height: 200px;
 	margin-top: 1350px;
 	margin-left: 250px;
+
 }
 
 .aboutUs h2{
@@ -177,4 +178,44 @@ button{
 
 hr{
 	position: absolute;
+	width: 1000px;
+	margin-top: 1300px;
+	margin-left: 250px;
+	height: 0; 
+	border: 0; 
+	border-top:1px solid grey; 
+}
+
+.contact{
+	font-size: 24px;
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	margin-top: 1350px;
+	margin-left: 900px;
+}
+
+.contact h2{
+	position: absolute;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.contact p{
+	position: absolute;
+	margin-top: 50px;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.menuText{
+	width: 400px;
+	height: 100px;
+	font-size: 12px;
+	border: solid red 2px;
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	margin-right: 35px;
 }
