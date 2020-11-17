@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	font-family: 'Archivo', sans-serif;
+}
+
+.page{
+	width: 1000px;
+}
+
+.topLogo{
+	margin-left: 250px;
+	padding: 20px;
+}
+
+.header{
+	background-color: #222931;
+	width: 950px;
+	height: 20px;
+	margin-left: 250px;
+	padding: 15px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.header a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.header a:hover{
+	background-color: #ffe718;
+}
+
+.background{
+	width: 1519px;
+	position: absolute;
+	margin-top: 45px;
+  	left: 0px;
+  	top: 0px;
+}
+
+.banner1{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 250px;
+}
+
+.banner2{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 600px;
+}
+
+.banner3{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 950px;
+}
+
+.ribbon{
+	width: 1519px;
+	height: 100px;
+	margin-top: 780px;
+	background-color: #ffe718;
+	position: absolute;
+	
+}
+
+.ribbon h2{
+	position: absolute;
+	font-size: 34px;
+	margin-left: 250px;
+	padding-top: 30px;
+	font-weight: 700;
+}
+
+.ribbon p{
+	position: absolute;
+	font-size: 16px;
+	margin-left: 660px;
+	margin-top: 45px;
+	font-weight: 700;
+	
+}
+
+button{
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	margin-left: 1100px;
+	margin-top: 35px;
+	border: none;
+	color: black;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.footerImage{
+	position: absolute;
+	width: 1519px;
+	height: 250px;
+	margin-top: 945px;
+}
+
+.bannerDeals{
+	position: absolute;
+	width: 300px;
+	height: 90px;
+	font-size: 24px;
+	background-color: #ffe718;
+	margin-top: 1150px;
+	margin-left: 250px;
+}
+
+.banners h2{
+	position: absolute;
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.banners p{
+	position: absolute;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.bannerService{
+	position: absolute;
+	width: 300px;
+	height: 90px;
+	font-size: 24px;
+	background-color: #ffe718;
+	margin-top: 1150px;
+	margin-left: 600px;
+}
+
+.bannerContact{
+	position: absolute;
+	width: 300px;
+	height: 90px;
+	font-size: 24px;
+	background-color: #ffe718;
+	margin-top: 1150px;
+	margin-left: 950px;	
+}
+
+.aboutUs{
+	position: absolute;
+	width: 500px;
+	height: 200px;
+	margin-top: 1350px;
+	margin-left: 250px;
+}
+
+.aboutUs h2{
+	position: absolute;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.aboutUs p{
+	position: absolute;
+	margin-top: 50px;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+hr{
+	position: absolute;
+}
