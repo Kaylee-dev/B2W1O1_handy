@@ -211,10 +211,11 @@ hr{
 }
 
 .menuText{
-	width: 400px;
+	width: 150px;
 	height: 100px;
 	font-size: 12px;
-	/*border: solid red 2px;*/
+	margin-left: 100px; 
+	border: solid red 2px;
 	position: absolute;
 	text-align: center;
 }
@@ -244,3 +245,7 @@ hr{
 	margin-top: 12px;
 }
 
+i{
+	width: 20px;
+	height: 20px;
+}
