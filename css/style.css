@@ -22,19 +22,24 @@
 	padding: 15px;
 	position: relative;
 	z-index: 1;
-	overflow: hidden;
+
+
 }
 
 .header a{
+	float: left;
 	color: white;
-	padding: 10px;
+	text-align: center;
+	padding: 5px 20px;
 	text-decoration: none;
-	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
 }
 
 .header a:hover{
 	background-color: #ffe718;
-	font-size: 17px;
+/*	font-size: 17px;*/
 }
 
 .background{
@@ -89,16 +94,22 @@
 	
 }
 
-button{
+#button2{
 	position: absolute;
 	width: 200px;
 	height: 30px;
 	margin-left: 1100px;
 	margin-top: 35px;
+	outline: none;
 	border: none;
 	color: black;
 	font-size: 12px;
 	font-weight: 500;
+}
+
+#button2:hover{
+	background-color: #222931;
+	color: white;
 }
 
 .footerImage{
@@ -116,6 +127,11 @@ button{
 	background-color: #ffe718;
 	margin-top: 1150px;
 	margin-left: 250px;
+}
+
+.bannerDeals:hover{
+	background-color: #222931;
+	color: white;
 }
 
 .banners h2{
@@ -144,6 +160,11 @@ button{
 	margin-left: 600px;
 }
 
+.bannerService:hover{
+	background-color: #222931;
+	color: white;
+}
+
 .bannerContact{
 	position: absolute;
 	width: 300px;
@@ -152,6 +173,11 @@ button{
 	background-color: #ffe718;
 	margin-top: 1150px;
 	margin-left: 950px;	
+}
+
+.bannerContact:hover{
+	background-color: #222931;
+	color: white;
 }
 
 .aboutUs{
@@ -220,13 +246,6 @@ hr{
 	text-align: center;
 }
 
-.locationItem{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	margin-top: 20px;
-}
-
 .footerName{
 	position: absolute;
 	margin-top: 1650px;
@@ -245,7 +264,58 @@ hr{
 	margin-top: 12px;
 }
 
-i{
-	width: 20px;
-	height: 20px;
+i.fa.fa-map-marker-alt{
+	height: 50px;
+	width: 50px;
+	color: red;
+	background-color: black;
 }
+
+
+/*submenu*/
+
+#button1:hover{
+	background-color: #ffe718
+	color: black;
+}
+
+.dropdown #button1 {
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: inherit;
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	background-color: #222931 
+
+}
+
+.dropdownContent a {
+  float: none;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+
+.dropdownContent a:hover {
+  background-color: #ffe718;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+/*overlay images*/
