@@ -22,24 +22,19 @@
 	padding: 15px;
 	position: relative;
 	z-index: 1;
-
-
 }
 
 .header a{
 	float: left;
-	color: white;
 	text-align: center;
 	padding: 5px 20px;
 	text-decoration: none;
 	color: white;
-	text-decoration: none;
 	font-size: 15px;
 }
 
 .header a:hover{
 	background-color: #ffe718;
-/*	font-size: 17px;*/
 }
 
 .background{
@@ -134,6 +129,13 @@
 	color: white;
 }
 
+i.fa.fa-handshake-o{
+	float: left;
+	font-size: 50px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
 .banners h2{
 	position: absolute;
 	font-size: 22px;
@@ -165,6 +167,13 @@
 	color: white;
 }
 
+i.fa.fa-briefcase{
+	float: left;
+	font-size: 50px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
 .bannerContact{
 	position: absolute;
 	width: 300px;
@@ -178,6 +187,14 @@
 .bannerContact:hover{
 	background-color: #222931;
 	color: white;
+}
+
+.bannerContact i{
+	float: left;
+	font-size: 50px;
+	margin-left: 15px;
+	margin-top: 20px;
+
 }
 
 .aboutUs{
@@ -264,13 +281,6 @@ hr{
 	margin-top: 12px;
 }
 
-i.fa.fa-map-marker-alt{
-	height: 50px;
-	width: 50px;
-	color: red;
-	background-color: black;
-}
-
 
 /*submenu*/
 
@@ -317,5 +327,82 @@ i.fa.fa-map-marker-alt{
   overflow: hidden;
 }
 
+.dienstenText{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 500px;
+	font-size: 14px;
+	color: black;
+	width: 950px;
+	height: 100px;
+}
 
-/*overlay images*/
+.dienstenText p{
+	font-size: 15px;
+	margin-top: 10px;
+
+}
+
+.dienstenText h2{
+	font-size: 25px;
+}
+
+ul.breadcrumbs{
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	margin-top: 465px;
+	margin-left: 250px;
+}
+
+ul.breadcrumbs li{
+	font-size: 13px;
+	display: inline;
+	margin-right: 10px;
+}
+
+ul.breadcrumbs li a{
+	font-size: 13px;
+	text-decoration: none;
+}
+
+ul.breadcrumbs li a:hover{
+	text-decoration: underline;
+}
+
+.yellowText{
+	color: yellow;
+	font-size: 15px;
+}
+
+i{
+	font-size: 20px;
+	z-index: 2;
+}
+
+ul.contactIcons li{
+	font-size: 14px;
+	list-style: none;
+	color: #aeb6be
+}
+
+ul.contactIcons li i{
+	float: left;
+	margin-right: 10px;
+}
+
+i.fa.fa-map-marker{
+	font-size: 30px;
+}
+
+i.fa.fa-mobile{
+	font-size: 40px;
+}
+
+.dienstenLink{
+	color: black;
+}
+
+.dienstenLink:hover{
+	color: white;
+}
